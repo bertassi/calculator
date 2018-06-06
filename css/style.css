@@ -1,0 +1,254 @@
+#calculator {
+	width: 660px; /* Largura. */
+	height: 952px; /* Altura. */	
+	margin: 150px auto; /* Margem superior e centralização. */
+	padding: 0px 0px 0px; /* Deslocamento do topo em relação ao fundo. */
+	background: #000000; /* Cor de fundo da calculadora.  */
+	border-radius: 3px; /* Borda levemente arredondada. */
+	box-shadow: 0px 4px rgb(0, 0, 0), 0px 10px 15px rgba(0, 0, 0, 0.72); /* Borda inferior e sombra. */
+}
+
+.visor {
+    float: center;
+    background: url(../img/top.gif) no-repeat;
+    width: 660px;
+    height: 241px;
+    border: 0px;
+}
+
+
+
+.button_sto{
+    background: url(../img/sto.gif) no-repeat;
+    width: 144px;
+    height: 152px;
+    border: 0px;
+}
+
+.button_rcl{
+    background: url(../img/rcl.gif) no-repeat;
+    width: 126px;
+    height: 152px;
+    border: 0px;
+}
+
+.button_1x{
+    background: url(../img/1x.gif) no-repeat;
+    width: 124px;
+    height: 152px;
+    border: 0px;
+}
+
+.button_sqx{
+    background: url(../img/sqx.gif) no-repeat;
+    width: 124px;
+    height: 152px;
+    border: 0px;
+}
+
+.button_clx{
+    background: url(../img/clx.gif) no-repeat;
+    width: 142px;
+    height: 152px;
+    border: 0px;
+}
+
+.button_xy{
+    background: url(../img/xy.gif) no-repeat;
+    width: 144px;
+    height: 135px;
+    border: 0px;
+}
+
+.button_7{
+    background: url(../img/7.gif) no-repeat;
+    width: 126px;
+    height: 135px;
+    border: 0px;
+}
+
+.button_8{
+    background: url(../img/8.gif) no-repeat;
+    width: 124px;
+    height: 135px;
+    border: 0px;
+}
+
+.button_9{
+    background: url(../img/9.gif) no-repeat;
+    width: 124px;
+    height: 135px;
+    border: 0px;
+}
+
+.button_div{
+    background: url(../img/div.gif) no-repeat;
+    width: 142px;
+    height: 135px;
+    border: 0px;
+}
+
+.button_r{
+    background: url(../img/r.gif) no-repeat;
+    width: 144px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_4{
+    background: url(../img/4.gif) no-repeat;
+    width: 126px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_5{
+    background: url(../img/5.gif) no-repeat;
+    width: 124px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_6{
+    background: url(../img/6.gif) no-repeat;
+    width: 124px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_multi{
+    background: url(../img/multi.gif) no-repeat;
+    width: 142px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_enter{
+    background: url(../img/enter.gif) no-repeat;
+    width: 144px;
+    height: 288px;
+    border: 0px;
+}
+
+.button_1{
+    background: url(../img/1.gif) no-repeat;
+    width: 126px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_2{
+    background: url(../img/2.gif) no-repeat;
+    width: 124px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_3{
+    background: url(../img/3.gif) no-repeat;
+    width: 124px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_minus{
+    background: url(../img/minus.gif) no-repeat;
+    width: 142px;
+    height: 136px;
+    border: 0px;
+}
+
+.button_0{
+    background: url(../img/0.png) no-repeat;
+    width: 126px;
+    height: 152px;
+    border: 0px;
+}
+
+.button_dot{
+    background: url(../img/dot.gif) no-repeat;
+    width: 124px;
+    height: 152px;
+    border: 0px;
+}
+
+.button_chs{
+    background: url(../img/chs.gif) no-repeat;
+    width: 124px;
+    height: 152px;
+    border: 0px;
+}
+
+.button_plus{
+    background: url(../img/plus.gif) no-repeat;
+    width: 142px;
+    height: 152px;
+    border: 0px;
+}
+
+/*
+
+
+/* Inset shadow on the screen to create indent 
+
+
+
+
+/* Remove right margins from operator keys */
+/* style different type of keys (operators/evaluate/clear) differently 
+.keys span.operator {
+	background: #FFF0F5;
+	margin-right: 0;
+}
+
+.keys span.eval {
+	background: #f1ff92;
+	box-shadow: 0px 4px #9da853;
+	color: #888e5f;
+}
+
+.top span.clear {
+	background: #ff9fa8;
+	box-shadow: 0px 4px #ff7c87;
+	color: white;
+}
+
+/* Some hover effects 
+.keys span:hover {
+	background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
+
+.keys span.eval:hover {
+	background: #abb850;
+	box-shadow: 0px 4px #717a33;
+	color: #ffffff;
+}
+
+.top span.clear:hover {
+	background: #f68991;
+	box-shadow: 0px 4px #d3545d;
+	color: white;
+}
+
+/* Simulating "pressed" effect on active state of the keys by removing the box-shadow and moving the keys down a bit 
+.keys span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.keys span.eval:active {
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top span.clear:active {
+	top: 4px;
+	box-shadow: 0px 0px #d3545d;
+}
+
+*/
+
+
+
