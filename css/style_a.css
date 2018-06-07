@@ -1,0 +1,169 @@
+/* calculator.html|./css/calculator.css */
+@font-face {
+    font-family: Segment7Standard;
+    src: url(../font/Segment7Standard.otf);
+ }
+ 
+.calculator {
+    table-layout: auto auto;
+}
+
+#visor{
+    font-family: Segment7Standard;
+    font-size: 65px;
+    text-shadow: 5px -5px 5px rgb(90, 90, 90);
+    color: black;
+    position: relative;
+    left: 90px;
+    top: 14px;
+}
+
+#top {
+    background: url(../img/top.gif) no-repeat;
+    width: 660px;
+    height: 241px;
+}
+
+#button_sto{
+    background: url(../img/sto.gif) no-repeat;
+    width: 144px;
+    height: 152px;
+}
+
+#button_rcl{
+    background: url(../img/rcl.gif) no-repeat;
+    width: 126px;
+    height: 152px;
+}
+
+#button_1x{
+    background: url(../img/1x.gif) no-repeat;
+    width: 124px;
+    height: 152px;
+}
+
+#button_sqx{
+    background: url(../img/sqx.gif) no-repeat;
+    width: 124px;
+    height: 152px;
+}
+
+#button_clx{
+    background: url(../img/clx.gif) no-repeat;
+    width: 142px;
+    height: 152px;
+}
+
+#button_xy{
+    background: url(../img/xy.gif) no-repeat;
+    width: 144px;
+    height: 135px;
+}
+
+#button_7{
+    background: url(../img/7.gif) no-repeat;
+    width: 126px;
+    height: 135px;
+}
+
+#button_8{
+    background: url(../img/8.gif) no-repeat;
+    width: 124px;
+    height: 135px;
+}
+
+#button_9{
+    background: url(../img/9.gif) no-repeat;
+    width: 124px;
+    height: 135px;
+}
+
+#button_div{
+    background: url(../img/div.gif) no-repeat;
+    width: 142px;
+    height: 135px;
+}
+
+#button_r{
+    background: url(../img/r.gif) no-repeat;
+    width: 144px;
+    height: 136px;
+}
+
+#button_4{
+    background: url(../img/4.gif) no-repeat;
+    width: 126px;
+    height: 136px;
+}
+
+#button_5{
+    background: url(../img/5.gif) no-repeat;
+    width: 124px;
+    height: 136px;
+}
+
+#button_6{
+    background: url(../img/6.gif) no-repeat;
+    width: 124px;
+    height: 136px;
+}
+
+#button_multi{
+    background: url(../img/multi.gif) no-repeat;
+    width: 142px;
+    height: 136px;
+}
+
+#button_enter{
+    background: url(../img/enter.gif) no-repeat;
+    width: 144px;
+    height: 288px;
+}
+
+#button_1{
+    background: url(../img/1.gif) no-repeat;
+    width: 126px;
+    height: 136px;
+}
+
+#button_2{
+    background: url(../img/2.gif) no-repeat;
+    width: 124px;
+    height: 136px;
+}
+
+#button_3{
+    background: url(../img/3.gif) no-repeat;
+    width: 124px;
+    height: 136px;
+}
+
+#button_minus{
+    background: url(../img/minus.gif) no-repeat;
+    width: 142px;
+    height: 136px;
+}
+
+#button_0{
+    background: url(../img/0.png) no-repeat;
+    width: 126px;
+    height: 152px;
+}
+
+#button_dot{
+    background: url(../img/dot.gif) no-repeat;
+    width: 124px;
+    height: 152px;
+}
+
+#button_chs{
+    background: url(../img/chs.gif) no-repeat;
+    width: 124px;
+    height: 152px;
+}
+
+#button_plus{
+    background: url(../img/plus.gif) no-repeat;
+    width: 142px;
+    height: 152px;
+}
