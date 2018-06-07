@@ -8,10 +8,6 @@
     padding: 20px 20px 100px 20px;
   }
 
-
-
-
-
   input[type=button] {
     background: lightGray;
     width: 20%;
@@ -42,9 +38,3 @@
     padding: 10px;
     box-shadow: 4px 0px 12px black inset;
   }
-
-  #button_1{
-    background: url(../img/1.gif) no-repeat;
-    width: 50%;
-    height: 50%;
-}
