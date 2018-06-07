@@ -1,40 +1,36 @@
+/* calculator.html|./css/calculator.css */
+@font-face {
+  font-family: Segment7Standard;
+  src: url(../font/Segment7Standard.otf);
+}
 
 #calc-contain{
-    position: relative;
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 12px;
-    margin: 0px auto;
-    padding: 20px 20px 100px 20px;
+    position: relative; /* Posiciona no meio da tela */
+    max-width: 350px;   
+    border: 20px solid black;
+    margin: 0px auto;    
   }
 
   input[type=button] {
     background: lightGray;
-    width: 20%;
     font-size: 20px;
-    font-weight: 900;
-    border-radius: 7px;
-    margin-left: 13px;
-    margin-top: 10px;
+    font-weight: 90;   
   }
+    
+ #visor {    
+    background: url(../img/top.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Segment7Standard;
+    font-size: 35px;
+    text-shadow: 1px -3px 2px rgb(90, 90, 90);
+    color: black;  
+    padding: 15% 0 10% 12%;
+ }
 
-  input[type=button]:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-
-  input[type=button]:hover {
-    background-color: #003300;
-    color: white;
-  }
-  
-  input[type = text] {
-    position: relative;
-    display: block;
-    width: 90%;
-    margin: 5px auto;
-    font-size: 20px;
-    padding: 10px;
-    box-shadow: 4px 0px 12px black inset;
-  }
+#button_1{
+    background: url(../img/1.gif);
+    background-repeat: no-repeat;
+    background-size: contain;    
+    padding: 10% 0% 0% 0%;
+}
