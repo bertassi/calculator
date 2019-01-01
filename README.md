@@ -1,5 +1,5 @@
 # VScode CSS3 Calculator
-This is just a CSS3 calculator based on a HP12C.
+This is a CSS3 calculator based on a HP12C.
 
-### Known Issues
-1. JS not working.
+### TODO
+1. Fix JS.
